@@ -7,5 +7,6 @@ services:
     image: glzjin/hctf_2018_warmup
     ports:
       - "127.0.0.1:8081:80"
-
+    environment:
+      - FLAG=flag{glzjin_wants_a_girl_friend}
     restart: always
